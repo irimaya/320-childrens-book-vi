@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.display-1 {
+	font-size: 5rem;
+	font-family: 'Sigmar One', sans-serif;
+}
+
+.display-2 {
+	font-size: 2rem;
+}
+
+.display-3 {
+	font-size: 1.3rem;
+}
+
+.display-2,
+.display-2 {
+	font-weight: 300;
+}
+
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-fixed {
+	display: flex;
+}
+
+.flex-box {
+	flex: 1;
+}
+
+/* Background */
+.bk-header {
+	background: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.bk-color {
+	background: #9B84CA;
+}
+
+.bk-color-light {
+	background: #EED3E6;
+}
+
+.bk-black {
+	background: #000;
+}
+
+.bk-shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Padding */
+.pt-1 {
+	padding-top: 200px;
+}
+
+.pt-2 {
+	padding-top: 80px;
+}
+
+.pt-3 {
+	padding-top: 40px;
+}
+
+.pb-1 {
+	padding-bottom: 200px;
+}
+
+.pb-2 {
+	padding-bottom: 80px;
+}
+
+.pb-3 {
+	padding-bottom: 40px;
+}
+
+.pr-1 {
+	padding-right: 40px;
+}
+
+.m-1 {
+	margin: 20px;
+}
+
+/* Width */
+.w-50 {
+	width: 50%;
+}
+
+.w-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+
+/* Text */
+.txt-large {
+	font-size: 20px;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+/* Button */
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 25px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	border: none;
+}
+
+.btn-dark {
+	background: #000;
+	color: #fff;
+}
+
+.btn-outline {
+	border: 2px solid #000;
+	border-radius: 20px;
+	padding: 12px 15px;
+}
+
+/* Mainheader */
+#mainheader {
+	height: 100vh;
+}
+
+/* Navbar */
+.navbar a {
+	color: #000;
+	font-weight: 500;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: end;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.navbar ul li {
+	list-style: none;
+	padding: 30px 20px;
+}
+
+/* Preview */
+#preview img {
+	background: #9B84CA;
+	padding: 40px 60px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+#preview p {
+	padding-top: 20px;
+}
+
+/* Download */
+#download img {
+	height: 500px;
+	/* width: 100%; */
+}
+
+#download .flex-box:nth-child(2) {
+	text-align: right;
+}
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding: 30px;
+}

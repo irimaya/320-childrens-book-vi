@@ -1,0 +1,92 @@
+/* Main Styling */
+h2 {
+	font-size: 1.5rem;
+}
+
+/* Utility Classes */
+.display-1 {
+	font-size: 3rem;
+}
+
+.display-2 {
+	font-size: 1.5rem;
+}
+
+.display-3 {
+	font-size: 1rem;
+}
+
+/* Flex */
+.flex {
+	flex-direction: column;
+}
+
+/* Padding */
+.pt-1 {
+	padding-top: 80px;
+}
+
+.pt-2 {
+	padding-top: 40px;
+}
+
+.pt-3 {
+	padding-top: 20px;
+}
+
+.pb-1 {
+	padding-bottom: 80px;
+}
+
+.pb-2 {
+	padding-bottom: 40px;
+}
+
+.pb-3 {
+	padding-bottom: 20px;
+}
+
+.pr-1 {
+	padding-right: 0;
+}
+
+/* Width */
+.w-50,
+.w-60 {
+	width: 100%;
+}
+
+/* Button */
+.btn-outline {
+	padding: 5px;
+}
+
+/* Mainheader */
+#mainheader {
+	height: 100%;
+}
+
+/* Navbar */
+.navbar {
+	padding-top: 20px;
+}
+
+.navbar ul li {
+	font-size: 14px;
+	padding: 12px;
+}
+
+/* Preview */
+#preview img {
+	padding: 10px;
+	height: 150px;
+}
+
+#preview .txt-large {
+	font-size: 1rem;
+}
+
+/* Download */
+#download .flex-box:nth-child(2) {
+	text-align: center;
+}
